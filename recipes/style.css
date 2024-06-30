@@ -1,0 +1,59 @@
+html {
+    background-color: blanchedalmond;
+}
+
+body {
+    font-family: cursive, 'Times New Roman', serif;
+    
+    margin: auto 12.5% auto 12.5%;
+    
+}
+
+p {
+    display: inline-block;
+    text-align: left;
+}
+.recipe-title {
+    text-align: center;
+    color: #000000;
+    font-weight: 800;
+
+}
+
+img {
+    display: block;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients,
+.steps,
+.description {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d24c4c;
+    color: white;
+}
+
+/* container to center the parent */
+.container{
+    text-align: center;
+}
+
+/* make it a block and keep the text to align left */
+ul.list-elements,
+ol.list-elements {
+    display: inline-block;
+    text-align: left;
+}
+
+/* margin below for the vertical spacing between items */
+li {
+    letter-spacing: .1em;
+    margin: 0 0 5px 0;
+}
+
+
