@@ -1,53 +1,69 @@
 html {
     background-color: blanchedalmond;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
 
 body {
     font-family: cursive, 'Times New Roman', serif;
+    border: black solid 12px;
+    width: 80%;
+    margin: 5% auto 5%;
     
-    margin: auto 12.5% auto 12.5%;
-    
-}
-
-p {
-    display: inline-block;
-    text-align: left;
-}
-.recipe-title {
-    text-align: center;
-    color: #000000;
-    font-weight: 800;
-
 }
 
 img {
     display: block;
     max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    border: black solid 5px;
+    
+    
+    
 }
+
+.recipe-title {
+    text-align: center;
+    color: #000000;
+    font-weight: 800;
+
+
+}
+
+
 
 .ingredients,
 .steps,
 .description {
     display: block;
     width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0px 8px 8px;
+    border: black solid 3px;
     background-color: #d24c4c;
     color: white;
+    margin: 10px auto;
+    
 }
 
+
 /* container to center the parent */
-.container{
+.container {
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
+
 
 /* make it a block and keep the text to align left */
 ul.list-elements,
-ol.list-elements {
+ol.list-elements,
+p {
     display: inline-block;
     text-align: left;
+
 }
 
 /* margin below for the vertical spacing between items */
