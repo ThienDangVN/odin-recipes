@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(146, 112, 224);
+    box-sizing: border-box;
+    color: black;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+img {
+    display: block;
+    width: 75%;
+    border: black solid 10px;
+    margin: 3% auto;
+    
+}
+body {
+    text-align: center;
+}
+
+ul.ul-element {
+    font-size: 24px;
+    display: inline-block;
+    text-align: left;
+    margin: 2px 0 10px;
+    
+}
